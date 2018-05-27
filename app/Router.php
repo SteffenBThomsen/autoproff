@@ -37,7 +37,6 @@ class Router
                 }
 
                 return $controller->{$action}($identifier, $params);
-            case "search":
             case "create":
                 return $controller->{$action}($params);
             case "show":

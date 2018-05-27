@@ -15,6 +15,6 @@ class BaseController
 {
     public function notImplemented(): JsonResponse
     {
-
+        return new JsonResponse([], "Not Implemented", 400);
     }
 }
