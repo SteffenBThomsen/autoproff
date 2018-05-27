@@ -62,4 +62,4 @@ General thought on making this application better
   This should be handled differently, up until a point this can be done by mysql queries, further optimizations after this gets slow as well, could be to store data in a NoSQL database og generating a php plugin in C that handles the actual search
 - Write PHPUnit test for the backend API, for testing routes and response formats 
 
-In general i would never contemplate not using a framework of some sorts. Modern framework gives a lot of functionality and testability, increasing development time.
+In general i would never contemplate not using a framework of some sorts. Modern framework gives a lot of functionality and testability, decreasing development time.
