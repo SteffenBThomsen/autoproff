@@ -1,0 +1,8 @@
+Add [_ijt] to fillable property to allow mass assignment on [AutoProff\App\Models\Car].
+
+
+
+SQLSTATE[HY000]: General error: 1 table cars has no column named updated_at (SQL: insert into "cars" ("model_id", "engine_id", "description", "year", "mileage", "updated_at", "created_at") values (1, 1, desc, 2014, 154000, 2018-05-27 18:21:08, 2018-05-27 18:21:08))
+
+
+

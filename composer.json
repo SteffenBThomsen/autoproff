@@ -1,0 +1,20 @@
+{
+  "name": "autoproff/test",
+  "description": "auto proff test",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Steffen Bo Thomsen",
+      "email": "steffenbothomsen@gmail.com"
+    }
+  ],
+  "require": {
+    "illuminate/database": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "AutoProff\\": ""
+    }
+  }
+}
